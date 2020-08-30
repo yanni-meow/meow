@@ -94,16 +94,6 @@ body {
 	background-position: center;
 }
 
-/* .banner__logo {
-	position: absolute;
-	top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-	color: rgb(228, 228, 228);
-	text-align: center;
-} */
-
 .slides {
 	width: 100%;
 	position: absolute;
@@ -120,7 +110,7 @@ body {
 	font-size: 3.2rem;
 	font-weight: bold;
 	text-transform: uppercase;
-	width: 37rem;
+	max-width: 37rem;
 	margin: 0 auto;
 }
 
@@ -294,17 +284,17 @@ iframe {
 
 .contact__form input, textarea {
 	color: rgba(76, 80, 93, 0.502);
-	width: 19.6rem;
+	width: 65%;
 	min-height: 2.3rem;
 	margin: .4rem auto;
 	border: .1rem solid rgb(216, 216, 216);
 	padding: .4rem;
 }
 
-.contact__form button {
+/* .contact__form button {
 	color: rgba(76, 80, 93, 0.502);
 	margin: .4rem auto;
-}
+} */
 
 .footer {
 	background-color: #00d089;
