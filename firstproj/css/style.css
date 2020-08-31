@@ -77,6 +77,21 @@ body {
 	padding: 0 3.8rem;	  
 }
 
+.navigation label {
+	display: none;
+	color: rgb(220, 227, 228);
+	font-size: 1.3rem;		
+	text-transform: uppercase;
+}
+
+#menu_check {
+	display: none;
+}
+
+.navigation__menu li {
+	display: inline;
+}
+
 .navigation__link {
 	padding: 0 3.2rem;
 	color: rgb(220, 227, 228);
@@ -200,9 +215,8 @@ label:hover {
 
 .info__link {
 	padding: 0 4.65rem;
-	color: rgb(220, 227, 228);
-	font-size: 1.3rem;		
-	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
 }
 
 .text {
@@ -291,10 +305,9 @@ iframe {
 	padding: .4rem;
 }
 
-/* .contact__form button {
-	color: rgba(76, 80, 93, 0.502);
-	margin: .4rem auto;
-} */
+.contact__form button span {
+	display: none;
+}
 
 .footer {
 	background-color: #00d089;
