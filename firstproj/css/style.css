@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		
 @font-face {
 	font-family: 'HelveticaLTStd-Light';  
-	src: url('https://nomail.com.ua/files/woff/09fbf0911aa25976c6a2d5c4e914be4a.woff') format('woff');  */
+	src: url('https://nomail.com.ua/files/woff/09fbf0911aa25976c6a2d5c4e914be4a.woff') format('woff'); 
 }
 
 html {
@@ -77,6 +77,10 @@ body {
 	padding: 0 3.8rem;	  
 }
 
+.navigation {
+	position: relative;
+}
+
 .navigation label {
 	display: none;
 	color: rgb(220, 227, 228);
@@ -87,6 +91,7 @@ body {
 #menu_check {
 	display: none;
 }
+
 
 .navigation__menu li {
 	display: inline;

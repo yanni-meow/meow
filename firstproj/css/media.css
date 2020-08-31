@@ -32,10 +32,24 @@
 		background: rgba(221, 221, 221, 0);
 	}
 
+	.navigation__menu {
+		display: flex;
+		position: absolute;
+		z-index: 9;
+		flex-direction: column;
+		right: 0;
+		padding-right: 2rem;
+		min-width: 170px;
+	}
+
 	#menu_check:checked + .navigation__menu li {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
+	}
+
+	.navigation__link {
+		padding: 0 0;
 	}
 }
 
