@@ -77,11 +77,11 @@ body {
 	padding: 0 3.8rem;	  
 }
 
-.navigation {
+.header__navigation {
 	position: relative;
 }
 
-.navigation label {
+.header__navigation label {
 	display: none;
 	color: rgb(220, 227, 228);
 	font-size: 1.3rem;		
@@ -104,7 +104,7 @@ body {
 	text-transform: uppercase;
 }
 
-.banner {
+.slider {
 	position: relative;
 	justify-content: center;
 	height: 34rem;
@@ -197,7 +197,7 @@ label:hover {
 	color: rgb(76, 80, 93);
 }
 
-.info__h2 {
+.info__title {
 	font-size: 2.1rem;
 	max-width: 45.3rem;
 	margin: 6rem auto 3rem;
@@ -224,23 +224,23 @@ label:hover {
 	align-items: center;
 }
 
-.text {
+.about {
 	background-color: #00d089;
 	color: rgb(228, 228, 228);
 	padding: 6.8rem 0;
 }
 
-.text__foto {
+.about__photo {
 	display: flex;
 	justify-content: center;
 }
 
-.text__foto img {
+.about__foto img {
 	max-height: 9.85rem;
 	max-width: 9.85rem;
 }
 
-.text__name {
+.about__name {
 	font-size: 1.86rem;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -250,7 +250,7 @@ label:hover {
 	margin-left: 3rem;
 }
 
-.text__name span {
+.about__name span {
 	font-size: 22rem;
 	opacity: .2;
 	font-weight: bold;
@@ -261,7 +261,7 @@ label:hover {
     left: 0;
 }
 	  
-.text p {
+.about p {
 	max-width: 66rem;
 	margin: 0 auto;
 	font-family: 'HelveticaLTStd-Light';
@@ -294,14 +294,12 @@ iframe {
     left: 50%;
     margin-right: -50%;
 	transform: translate(-50%, -50%);
-}
-  
-.contact__form p {
 	text-align: center;
 	justify-content: center;
 }
 
 .contact__form input, textarea {
+	display: block;
 	color: rgba(76, 80, 93, 0.502);
 	width: 65%;
 	min-height: 2.3rem;
