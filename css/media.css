@@ -15,6 +15,22 @@
 }
 
 @media (max-width: 720px) {	
+	html {
+		font-size: 14px;
+	}
+
+	.slides h1 {
+		font-size: 2rem;
+		font-weight: bold;
+		padding: 1rem 0;
+	}
+
+	.slides button {
+		width: 14rem;
+		height: 2.5rem;
+		font-size: 1.5rem;
+	}
+	
 	.navigation__menu li {
 		display: none;
 	}
