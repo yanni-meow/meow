@@ -73,8 +73,11 @@ body {
 .header__logo {
 	font-size: 2.9rem;
 	font-family: 'Cherry Swash', cursive;		
-	color: rgb(255, 255, 255);
 	padding: 0 3.8rem;	  
+}
+
+.header__logo a {
+	color: rgb(220, 227, 228);
 }
 
 .header__navigation {
@@ -195,19 +198,20 @@ label:hover {
 .info {
 	text-align: center;
 	color: rgb(76, 80, 93);
+	padding: 6rem 0;
 }
 
 .info__title {
 	font-size: 2.1rem;
 	max-width: 45.3rem;
-	margin: 6rem auto 3rem;
+	margin: 0 auto;
 }
   
  .info__text {
 	font-size: 1rem;
 	max-width: 60rem;
 	margin: 0 auto;
-	padding: 0 1rem;
+	padding: 4rem 1rem;
 } 
 
  .info__navigation {
@@ -215,7 +219,6 @@ label:hover {
 	justify-items: center;
 	align-items: center;
 	margin: 0 auto;
-	padding: 5rem 0 5.85rem; 
  }
 
 .info__link {
@@ -273,15 +276,7 @@ label:hover {
 .contact {
 	height: 37rem;
 	position: relative;
-	z-index: -1;
 }
-
-/* iframe {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-} */
 
 .contact__form {
 	width: 30.7rem;
